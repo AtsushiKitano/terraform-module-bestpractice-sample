@@ -11,6 +11,16 @@ Terraform ModuleのBestPractice
 # Dependency Inversion
 GCP
 
+```
+cd src/dependency_inversion
+export TF_VAR_project = $(gcloud config get-value core/project)
+terraform init
+terraform workspace new prd
+terraform workspace new dev
+terraform workspace select [prd/dev]
+terraform apply
+```
+
 # Multi-cloud Abstractions
 
 # Data-only Modules
