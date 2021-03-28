@@ -9,3 +9,7 @@ module "secret" {
   ciphertext = "CiQA3KEfa06yazAYoXGyuX0ZRX4MjluESCBTQPWhEgRzeK4HB3ASLQCk29aHH/XgLZDZTGAVOGyQ
 pveN33SWVlGTY6qMqIiFATkCGYOZpSgbHv5Y7A=="
 }
+
+output "secret" {
+  value = module.secret.plaintext
+}
