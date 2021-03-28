@@ -1,5 +1,5 @@
 module "secret" {
-  source = "../../modules/secret"
+  source = "../../../modules/data-only_modules/secret"
 
   kms_info = {
     key_ring   = "test"
