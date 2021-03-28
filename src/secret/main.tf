@@ -6,8 +6,7 @@ module "secret" {
     crypto_key = "bestpractice-sample"
   }
 
-  ciphertext = "CiQA3KEfa06yazAYoXGyuX0ZRX4MjluESCBTQPWhEgRzeK4HB3ASLQCk29aHH/XgLZDZTGAVOGyQ
-pveN33SWVlGTY6qMqIiFATkCGYOZpSgbHv5Y7A=="
+  ciphertext = "CiQA3KEfa06yazAYoXGyuX0ZRX4MjluESCBTQPWhEgRzeK4HB3ASLQCk29aHH/XgLZDZTGAVOGyQpveN33SWVlGTY6qMqIiFATkCGYOZpSgbHv5Y7A=="
 }
 
 output "secret" {
