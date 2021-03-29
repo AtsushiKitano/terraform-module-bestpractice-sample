@@ -9,4 +9,3 @@ terraform.tfstate.backup
 inspec.lock
 attributes.yaml
 terraform.tf
-provider.tf

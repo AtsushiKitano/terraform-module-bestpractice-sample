@@ -35,6 +35,7 @@ data "google_compute_subnetwork" "main" {
   for_each = terraform.workspace == "dev" ? toset([terraform.workspace]) : []
   name     = local.default_subnet_name
   region   = "asia-northeast1"
+  project  = var.project
 }
 
 
